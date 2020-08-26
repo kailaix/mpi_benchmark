@@ -11,9 +11,13 @@ ADCME.make()
 
 Then 
 
-```julia
+```
 mpirun -n 1 ./main 
 mpirun -n 4 ./main 
+```
+
+```bash
+sh bench.sh
 ```
 
 # What is mpiBench?
