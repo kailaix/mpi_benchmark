@@ -72,7 +72,7 @@ ENDIF()
 find_package(OpenMP)
 
 add_executable(main mpiBench.c)
-add_executable(bench mpiBench2.c)
+add_executable(bench mpiBench2.cpp)
 target_link_libraries(main ${MPI_C_LIBRARIES})
 if(OpenMP_CXX_FOUND)
     message("OPENMP Found")
