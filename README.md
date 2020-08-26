@@ -1,6 +1,21 @@
 # mpiBench
 Times MPI collectives over a series of message sizes
 
+```julia
+using ADCME
+mkdir("build")
+cd("build")
+ADCME.cmake()
+ADCME.make()
+```
+
+Then 
+
+```julia
+mpirun -n 1 ./main 
+mpirun -n 4 ./main 
+```
+
 # What is mpiBench?
 
 mpiBench.c
