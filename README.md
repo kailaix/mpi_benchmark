@@ -20,6 +20,8 @@ mpirun -n 4 ./main
 sh bench.sh
 ```
 
+🎈 The following contents are from the original README. 
+
 # What is mpiBench?
 
 mpiBench.c
